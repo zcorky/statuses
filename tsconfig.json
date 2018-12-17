@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "module": "commonjs",
+        "target": "esnext",
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "outDir": "lib",
+        "lib": ["esnext", "dom"],
+        "declaration": true,
+        "sourceMap": false,
+        "removeComments": true
+    },
+    "include": ["src/**/*.ts"]
+}
